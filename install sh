@@ -4,7 +4,9 @@ pkg update && pkg upgrade
 
 pkg install php phpmyadmin mariadb
 
-mv ~/termuxphp/config.inc.php $PREFIX/share/phpmyadmin/config.inc.php
+mv $PREFIX/share/phpmyadmin/config.inc.php $PREFIX/share/phpmyadmin/config.inc.php.bak
+
+mv ~/termuxphp/config.inc.php $PREFIX/share/phpmyadmin/
 
 mkdir -p $PREFIX/etc/php
 
