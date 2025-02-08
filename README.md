@@ -12,7 +12,7 @@
 # how to run
 
 1. open termux
-2. sh start.sh
+2. sh start.sh &
 3. open your phone web browser
 4. visit http://localhost:8080 or http://127.0.0.1:8080
    
