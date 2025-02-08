@@ -2,7 +2,7 @@
 
 pkg update && pkg upgrade
 
-pkg install php phpmyadmin mariadb
+pkg install php phpmyadmin mariadb vim -y
 
 mv $PREFIX/share/phpmyadmin/config.inc.php $PREFIX/share/phpmyadmin/config.inc.php.bak
 
