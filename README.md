@@ -9,7 +9,7 @@
 5. chmod +x ~/termuxphp/install.sh
 6. sh ~/termuxphp/install.sh
 
-# how to run
+# how to run phpmyadmin
 
 1. open termux
 2. sh start.sh &
