@@ -16,6 +16,8 @@ mv ~/termuxphp/start.sh ~/
 
 chmod +x ~/start.sh
 
+mv ~/start.sh $PREFIX/bin/start-admin
+
 rm -rf ~/termuxphp
 
 echo 'installation done'
