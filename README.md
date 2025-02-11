@@ -12,7 +12,7 @@
 # how to run phpmyadmin
 
 1. open termux
-2. type start-admin to run phpmyadmin
+2. type start-admin & to run phpmyadmin
 3. open your phone web browser
 4. visit http://localhost:8080 or http://127.0.0.1:8080
    
